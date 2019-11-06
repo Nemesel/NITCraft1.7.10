@@ -48,8 +48,6 @@ public class Main {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         //Регистрация блоков, рецептов, предметов  РЕЦЕПТЫ ВСЕГДА ПОСЛЕДНИМИ!!!!!
-//        Liquids.init();
-
 
         Liquids.init();
         Items.init();
