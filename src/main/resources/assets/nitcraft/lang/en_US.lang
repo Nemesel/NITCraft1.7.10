@@ -1,0 +1,22 @@
+item.red_diamond.name=Red Diamond
+tile.red_diamond_block.name=Red Diamond Block
+tile.red_diamond_ore.name=Ore of red diamond
+item.red_diamond_dust.name=Dust of red diamond
+item.cooked_red_diamond.name=Cooked red diamond red_diamond_dust
+itemGroup.tabNitCraft=NITCraft
+item.red_diamond_pickaxe.name=Red diamond pickaxe
+item.red_diamond_shovel.name=Red diamond shovel
+item.red_diamond_sword.name=Red diamond sword
+item.red_diamond_hoe.name=Red diamond hoe
+item.red_diamond_axe.name=Red diamond axe
+tile.red_diamond_glass=Red diamond glass
+item.obsidian_stick.name=Obsidian stick
+item.red_diamond_helmet.name=Red diamond helmet
+item.red_diamond_Chestplate.name=Red diamond chestplate
+item.red_diamond_Leggings.name=Red diamond leggings
+item.red_diamond_Boots.name=Red diamond boots
+item.magic_stick.name=Magic gun
+item.plate_tier_1.name=Three plates 1 level
+item.plate_tier_2.name=Three plates 2 level
+item.plate_tier_3.name=Three plates 3 level
+
