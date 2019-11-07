@@ -1,7 +1,6 @@
 package ru.nitdroid.liquids;
 
 import cpw.mods.fml.common.registry.GameRegistry;
-import cpw.mods.fml.common.registry.LanguageRegistry;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.material.Material;
@@ -14,17 +13,15 @@ import ru.nitdroid.common.Main;
 
 import static ru.nitdroid.common.Main.tabNitCraft;
 
-
-public class RocketFluidBlock  extends BlockFluidClassic
+public class RocketFluidEnrichedBlock extends BlockFluidClassic
 {
-    public static final String name = "rocket_fluid_block";
-    public RocketFluidBlock(){
-        super(Liquids.rocket_fluid,Material.water);
+    public static final String name = "rocket_fluid_enriched_block";
+    public RocketFluidEnrichedBlock(){
+        super(Liquids.rocket_fluid_enriched, Material.water);
         setCreativeTab(tabNitCraft);
         setBlockName(name);
         setBlockTextureName(name);
         GameRegistry.registerBlock(this,name);
-
     }
     @SideOnly(Side.CLIENT)
     private IIcon stillIcon;
@@ -56,7 +53,5 @@ public class RocketFluidBlock  extends BlockFluidClassic
         if (world.getBlock(x,  y,  z).getMaterial().isLiquid()) return false;
         return super.displaceIfPossible(world, x, y, z);
     }
-
-
 
 }

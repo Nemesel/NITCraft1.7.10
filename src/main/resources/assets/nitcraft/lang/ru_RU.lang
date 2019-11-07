@@ -19,3 +19,7 @@ item.magic_stick.name=Магическая пушка
 item.plate_tier_1.name=Три объединеные пластины 1 уровня
 item.plate_tier_2.name=Три объединеные пластины 2 уровня
 item.plate_tier_3.name=Три объединеные пластины 3 уровня
+tile.rocket_fluid_block.name=Гидрозин
+fluid.rocket_fluid=Гидрозин
+tile.rocket_fluid_enriched_block.name=Обогащенный гидрозин
+fluid.rocket_fluid_enriched=Обогащенный гидрозин

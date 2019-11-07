@@ -19,4 +19,7 @@ item.magic_stick.name=Magic gun
 item.plate_tier_1.name=Three plates 1 level
 item.plate_tier_2.name=Three plates 2 level
 item.plate_tier_3.name=Three plates 3 level
-
+tile.rocket_fluid_block.name=Hydrozin
+fluid.rocket_fluid=Hydrozin
+tile.rocket_fluid_enriched_block.name=Enriched hydrozin
+fluid.rocket_fluid_enriched=Enriched hydrozin

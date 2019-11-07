@@ -23,6 +23,7 @@ public class MagicStick extends net.minecraft.item.Item {
         GameRegistry.registerItem(this,name);
 
 
+
     }
     @Override
     public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer player)

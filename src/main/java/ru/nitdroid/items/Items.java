@@ -1,6 +1,7 @@
 
 package ru.nitdroid.items;
 import net.minecraft.item.Item;
+import ru.nitdroid.liquids.Liquids;
 
 
 public class Items {
@@ -26,6 +27,7 @@ public class Items {
         plate_tier_1 = new PlateTier1();
         plate_tier_2 = new PlateTier2();
         plate_tier_3 = new PlateTier3();
+
 
     }
 }
